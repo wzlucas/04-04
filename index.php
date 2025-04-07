@@ -1,5 +1,7 @@
 <?php
 
+requery_once(modelo/Links.php);
+
 function desenhaBotao($links) {
     echo '<div class="dropdown">';
     echo '<button class="dropbtn">Times de futebol</button>';
@@ -35,3 +37,8 @@ array_push($botao3, $link7, $link8, $link9);
 
 $botao4 = array();
 array_push($botao4, $link10, $link11, $link12);
+
+desenhaBotao($botao1);
+desenhaBotao($botao2);
+desenhaBotao($botao3);
+desenhaBotao($botao4);
