@@ -7,7 +7,7 @@ function desenhaBotao($links) {
     echo '<button class="dropbtn">Times de futebol</button>';
     echo '<div class="dropText">';
     foreach ($links as $l) {
-        echo '<span><img src="' . $l->getLinkImg . '"="20" height="20">' . $l->getInfo. '</span>';
+        echo '<span><img src="' . $l->getLinkImg . '"="20" height="20">' . $l->getInfo . '</span>';
     }
     echo '</div>';
     echo '</div>';
