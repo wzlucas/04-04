@@ -5,7 +5,10 @@ class Link {
     private $linkImg;
     private $info;
 
-    function 
+    function _construct {
+        $this->linkImg = $linkImg;
+        $this->info = $info;
+    }
 
     /**
      * Get the value of linkImg
