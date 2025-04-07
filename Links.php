@@ -5,6 +5,8 @@ class Link {
     private $linkImg;
     private $info;
 
+    function 
+
     /**
      * Get the value of linkImg
      */
